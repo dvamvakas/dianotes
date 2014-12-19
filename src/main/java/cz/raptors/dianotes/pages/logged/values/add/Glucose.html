@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs">
+
+    <body>
+        <wicket:panel>
+			<form wicket:id="addGlucoseForm">
+	            <div class="groupName">Glukóza</div>
+	            <div class="formRow"><label wicket:id="inputGlucoseValueLabel"></label></div>
+	            <div class="formInput"><input wicket:id="inputGlucoseValue" type="text" name="value" value="0"></div>
+	            <div class="groupName"></div>
+	            <div class="formRow"><label wicket:id="dateAndTimeOfMeasureLabel"></label></div>
+	            <div class="formInput"><input type="text" wicket:id="inputDateAndTimeOfMeasure" name="datetime"></div>
+	            <div class="groupName"></div>
+	            <div class="formRow"><label wicket:id="glucoseCommentLabel"></label></div>
+	            <div class="formInput"><input type="text" wicket:id="inputGlucoseComment" name="comment" value=""></div>
+	            <div class="groupName"></div>
+	            <div class="formSubmit"><input type="submit"><label wicket:id="submitGlucose"></label></input></div>
+			</form>
+        </wicket:panel>
+    </body>
+</html>

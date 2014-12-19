@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
+
+    <body>
+        <wicket:extend>
+            <div id="loginBar">
+                <h1><span class="hideText">DiaNotes</span></h1>
+                <form wicket:id="registerForm" action="" method="post">
+                    <div class="formRow">
+                    	<label wicket:id="loginEmailLabel" for="loginEmail"></label></div>
+           			<div class="formInput">
+           				<input id="loginEmail" wicket:id="email" type="email" name="username"></div>                  
+                    <div class="formRow">
+                    	<label wicket:id="loginPasswordLabel" for="passwordEmail"></label></div>
+                    <div class="formInput">
+                    	<input wicket:id="password" id="passwordEmail" type="password" name="password"/></div>
+                    <div class="formSubmit">
+                        <input type="submit"/>
+                    </div>
+                </form>
+            </div>
+
+            <div id="forgotPassword">Zapomněli jste své přihlašovací heslo? <a href="" title="Zapomenuté heslo">Klikněte zde nechte si jej zaslat</a>.</div>
+
+            <div id="registerBar">
+                <h2>Nový uživatel?</h2>
+                <p>Vytvořte si účet pro službu DiaNotes.</p>
+
+                <a wicket:id="registerNewUser" id ="registerNewUser" class="registerButton"><label wicket:id="registerNewUserLabel" for="registerNewUser"></label></a>
+            </div>
+			    <div id="feedbackPanel" class="feedbackPanel">
+        <span wicket:id="feedbackPanel"></span>
+    </div>
+        </wicket:extend>
+    </body>
+</html>

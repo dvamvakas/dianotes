@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs">
+
+    <body>
+        <wicket:panel>
+            <div id="inside-top">
+                <div class="leftSide">
+                    <a wicket:id="logout" href="" title="Zpět na úvod" class="logoLink"></a>
+                    <span wicket:id="tabs-container">
+                        <ul>
+                            <li wicket:id="tabs">
+                                <a href="#" wicket:id="link">
+                                    <span wicket:id="title">[[tab title]]</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="rightSide">
+                    <p class="links"><a wicket:id="user" title="Upravit uživatelské údaje">Upravit uživatelské údaje</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="" title="Odhlásit se">Odhlásit se</a></p>
+                    <p class="user"><b>Uživatel:</b> dusan.mikulec@novatronic.cz</p>
+                </div>
+            </div>
+            
+            <div id="inside-content">
+                <div id="paddingSet">
+                    <div wicket:id="content" id="content">[[content panel]]</div>
+                </div>
+
+                <div id="bottomBig">
+                    <div id="bottomBigSet">
+                        <div id="bottomBigIn">
+                            &copy; 2014 Břimba software&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All rights reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="" title="O aplikaci">O aplikaci</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="" title="Nápověda">Nápověda</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="" title="F.A.Q.">F.A.Q.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </wicket:panel>    
+    </body>
+</html>

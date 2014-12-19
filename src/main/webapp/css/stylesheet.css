@@ -1,0 +1,104 @@
+BODY {font-family: 'Exo 2', sans-serif; margin: 0px; background-color: #FFF; background-image: url(../images/home-bg.jpg); background-repeat: no-repeat; background-position: center top;}
+
+  A:HOVER {text-decoration: none;}
+  .hideText {display: none;}
+  
+  #loginFrame {width: 500px; margin-left: auto; margin-right: auto;}
+
+  	#loginBar {width: 500px; height: 326px; float: left; background-image: url(../images/login-bg.png); background-position: center bottom; background-repeat: no-repeat; background-color: #FFF;}
+  		#loginBar H1 {width: 295px; height: 62px; float: left; margin: 70px 103px 70px 102px; background-image: url(../images/logo.jpg);}
+  		#loginBar .formRow {width: 173px; height: 37px; float: left; padding: 8px 0px 0px 30px; font-size: 14px; color: #444346;}
+  		#loginBar .formInput {width: 267px; height: 45px; float: left; padding: 0px 30px 0px 0px;}
+  			#loginBar .formInput INPUT {width: 257px; height: 23px; float: left; border: 0px; padding: 5px; font-family: 'Exo 2', sans-serif; font-size: 14px; color: #444346; background-image: url(../images/login-input.jpg);}
+  		#loginBar .formSubmit {width: 441px; height: 44px; float: left; position: relative; top: 8px; left: 29px; }
+  			#loginBar .formSubmit INPUT {width: 441px; height: 44px; float: left; background-image: url(../images/button-login.png); font-family: 'Exo 2', sans-serif; font-size: 16px; color: #FFF; font-weight: 700; border: 0px; }
+  	
+  	#forgotPassword {width: 500px; height: 56px; float: left; font-family: 'Exo 2', sans-serif; font-size: 14px; color: #444346; text-align: center; padding: 54px 0px 0px 0px;}	
+  		#forgotPassword A {color: #d71243;}
+  
+		#registerBar {width: 500px; float: left; background-image: url(../images/register-bg.png);}
+			#registerBar H2 {width: 500px; float: left; text-align: center; margin: 25px 0px 5px 0px; font-size: 28px; font-weight: 700; font-family: 'Exo 2', sans-serif; color: #454347;}
+			#registerBar P {width: 500px; float: left; text-align: center; margin: 0px 0px 5px 0px; font-size: 14px; font-family: 'Exo 2', sans-serif; color: #454347;}
+			#registerBar .registerButton {width: 441px; height: 32px; float: left; display: block; text-decoration: none; margin: 15px 0px 0px 29px; text-align: center; padding: 12px 0px 0px 0px; background-image: url(../images/button-register.png); font-family: 'Exo 2', sans-serif; font-size: 16px; color: #FFF; font-weight: 700; border: 0px;}
+		
+		#registerFormBar {width: 500px; min-height: 550px; float: left; background-color: #FFF;}
+			#registerFormBar H1 {width: 295px; height: 62px; float: left; margin: 70px 103px 60px 102px; background-image: url(../images/logo.jpg);}
+			#registerFormBar H2 {width: 500px; float: left; text-align: center; margin: 0px 0px 5px 0px; font-size: 28px; font-weight: 700; font-family: 'Exo 2', sans-serif; color: #454347;}
+			#registerFormBar P {width: 500px; float: left; text-align: center; margin: 0px 0px 35px 0px; font-size: 14px; font-family: 'Exo 2', sans-serif; color: #454347;}
+			#registerFormBar .formRow {width: 173px; height: 37px; float: left; padding: 8px 0px 0px 30px; font-size: 14px; color: #444346;}
+  		#registerFormBar .formInput {width: 267px; height: 45px; float: left; padding: 0px 30px 0px 0px;}
+        #feedbackPanel {}
+  			#registerFormBar .formInput INPUT {width: 257px; height: 23px; float: left; border: 0px; padding: 5px; font-family: 'Exo 2', sans-serif; font-size: 14px; color: #444346; background-image: url(../images/login-input.jpg);}
+  		#registerFormBar .formSubmit {width: 441px; height: 44px; float: left; position: relative; top: 8px; left: 29px; }
+  			#registerFormBar .formSubmit INPUT {width: 441px; height: 44px; float: left; background-image: url(../images/button-register.png); font-family: 'Exo 2', sans-serif; font-size: 16px; color: #FFF; font-weight: 700; border: 0px; }
+		
+		#bottom {width: 440px; float: left; margin: 30px 30px 0px 30px; padding: 15px 0px 20px 0px; background-image: url(../images/hr.jpg); background-repeat: repeat-x; background-position: left top; font-size: 11px; color: #a9a9a9;}
+			#bottom A {color: #a9a9a9;}
+
+		#inside-top {width: 100%; height: 105px; float: left; background-image: url(../images/inside-top.jpg);}
+			#inside-top .leftSide {float: left; height: 105px;}
+				#inside-top .leftSide .logoLink {width: 222px; height: 47px; float: left; margin: 27px 29px 0px 30px; display: block;}
+				#inside-top .leftSide UL {float: left; height: 59px; float: left; padding: 46px 0px 0px 0px; list-style: none; margin: 0px;}
+					#inside-top .leftSide UL LI {height: 59px; float: left; margin: 0px 0px 0px 20px;}
+					 #inside-top .leftSide UL LI A {height: 41px; float: left; display: block; font-size: 19px; color: #444347; text-decoration: none;}
+					#inside-top .leftSide UL .no01 {width: 155px; background-image: url(../images/menu-01.jpg);}
+						#inside-top .leftSide UL .no01 A {padding: 18px 0px 0px 55px; width: 100px;}
+					#inside-top .leftSide UL .no01on {width: 155px; background-image: url(../images/menu-01-on.jpg);}
+						#inside-top .leftSide UL .no01on A {padding: 18px 0px 0px 55px; width: 100px; color: #d71243;}
+					#inside-top .leftSide UL .no02 {width: 212px; background-image: url(../images/menu-02.jpg);}
+						#inside-top .leftSide UL .no02 A {padding: 18px 0px 0px 55px; width: 157px;}
+					#inside-top .leftSide UL .no02on {width: 212px; background-image: url(../images/menu-02-on.jpg);}
+						#inside-top .leftSide UL .no02on A {padding: 18px 0px 0px 55px; width: 157px; color: #d71243;}
+					#inside-top .leftSide UL .no03 {width: 164px; background-image: url(../images/menu-03.jpg);}
+						#inside-top .leftSide UL .no03 A {padding: 18px 0px 0px 55px; width: 109px;}
+					#inside-top .leftSide UL .no03on {width: 164px; background-image: url(../images/menu-03-on.jpg);}
+						#inside-top .leftSide UL .no03on A {padding: 18px 0px 0px 55px; width: 109px; color: #d71243;}
+
+			#inside-top .rightSide {float: right; height: 105px; padding: 0px 30px 0px 0px;}
+				#inside-top .rightSide .links {float: right; margin: 30px 0px 15px 0px; clear: both; font-size: 16px; color: #454347;}
+					#inside-top .rightSide .links A {color: #d71243;}
+				#inside-top .rightSide .user {float: right; margin: 0px 0px 0px 0px; clear: both; font-size: 12px; color: #454347;}
+		
+		#inside-content {width: 100%; float: left;}
+			#paddingSet {padding: 30px 34px 30px 30px; width: auto;}
+				#content {width: 100%; float: left;}
+					
+					#content .contentListNavigator {width: 100%; height: 50px; float: left; list-style: none; margin: 0px; padding: 0px;}
+						#content .contentListNavigator LI {width: 155px; height: 50px; float: left; margin: 0px 2px 0px 0px; background-image: url(../images/content-list.jpg);}
+							#content .contentListNavigator LI A {width: 155px; height: 35px; padding: 15px 0px 0px 0px; float: left; display: block; text-align: center; font-size: 16px; color: #9d9d9d; text-decoration: none;}
+						#content .contentListNavigator .on {background-image: url(../images/content-list-on.jpg);}
+							#content .contentListNavigator .on A {color: #454347;}
+					
+					#content .contentFrame {width: 100%; float: left; border: 2px solid #eee; background-color: #FFF;}
+						#content .contentFrame .filterFrame {width: 100%; height: 54px; float: left; background-image: url(../images/filter-bg.jpg);}
+							#content .contentFrame .filterFrame .leftSide {float: left;}
+							#content .contentFrame .filterFrame .rightSide {float: right;}
+							#content .contentFrame .filterFrame .filterRow {width: 120px; height: 35px; float: left; padding: 19px 0px 0px 20px; font-size: 14px; color: #444346;}
+							#content .contentFrame .filterFrame .filterInput {width: 137px; height: 39px; float: left; padding: 15px 0px 0px 0px;}	
+								#content .contentFrame .filterFrame .filterInput INPUT {width: 127px; height: 14px; float: left; border: 0px; padding: 5px; font-family: 'Exo 2', sans-serif; font-size: 14px; color: #444346; background-image: url(../images/filter-input.jpg);}
+							#content .contentFrame .filterFrame .smallButton {width: 161px; height: 26px; padding: 7px 0px 0px 0px; float: left; margin: 11px 10px 0px 0px; display: block; background-image: url(../images/button-small.jpg); text-align: center; font-family: 'Exo 2', sans-serif; font-size: 14px; color: #FFF; font-weight: 700; border: 0px; text-decoration: none;} 
+							#content .contentFrame .graph {width: 70%; float: left;}
+							#content .contentFrame .suggestions {width: 30%; float: left;}
+								#content .contentFrame .suggestions .suggestionsBorderSet {border-left: 2px solid #eee; float: left; padding: 20px 20px 5px 30px;}
+								#content .contentFrame .suggestions H2 {width: 100%; float: left; font-size: 18px; color: #444346; padding: 0px 0px 15px 0px; margin: 0px 0px 15px 0px; background-image: url(../images/hr.jpg); background-repeat: repeat-x; background-position: left bottom;}
+ 								#content .contentFrame .suggestions P {width: 100%; float: left; font-size: 14px; color: #444346; margin: 0px 0px 15px 0px; line-height: 1.5;}
+									#content .contentFrame .suggestions P B {color: #d71243;}
+							#content .contentFrame .formFrame {width: 100%; float: left; padding: 20px 20px 20px 20px;}
+								#content .contentFrame .formFrame .formRow {width: 300px; height: 37px; float: left; padding: 8px 0px 0px 0px; font-size: 16px; color: #444346; clear: left;}
+								#content .contentFrame .formFrame .formInput {width: 441px; height: 45px; float: left;}
+									#content .contentFrame .formFrame .formInput INPUT {width: 431px; height: 23px; float: left; border: 0px; padding: 5px; font-family: 'Exo 2', sans-serif; font-size: 14px; color: #444346; background-image: url(../images/content-input.jpg);}
+								#content .contentFrame .formFrame .formSubmit {width: 441px; height: 44px; float: left; padding: 10px 0px 0px 300px; clear: left;}
+									#content .contentFrame .formFrame .formSubmit INPUT {width: 441px; height: 44px; float: left; background-image: url(../images/content-submit.jpg); font-family: 'Exo 2', sans-serif; font-size: 16px; color: #FFF; font-weight: 700; border: 0px; }
+							#content .contentFrame .formGroupFrame {width: 100%; float: left; padding: 20px 20px 20px 20px;}
+								#content .contentFrame .formGroupFrame .groupName {width: 200px; height: 45px; float: left; font-size: 22px; color: #444346; font-weight: 700; clear: left;}
+								#content .contentFrame .formGroupFrame .formRow {width: 300px; height: 37px; float: left; padding: 8px 0px 0px 0px; font-size: 16px; color: #444346;}
+								#content .contentFrame .formGroupFrame .formInput {width: 441px; height: 45px; float: left;}
+									#content .contentFrame .formGroupFrame .formInput INPUT {width: 431px; height: 23px; float: left; border: 0px; padding: 5px; font-family: 'Exo 2', sans-serif; font-size: 14px; color: #444346; background-image: url(../images/content-input.jpg);}
+								#content .contentFrame .formGroupFrame .formSubmit {width: 441px; height: 44px; float: left; padding: 10px 0px 0px 300px;}
+									#content .contentFrame .formGroupFrame .formSubmit INPUT {width: 441px; height: 44px; float: left; background-image: url(../images/content-submit.jpg); font-family: 'Exo 2', sans-serif; font-size: 16px; color: #FFF; font-weight: 700; border: 0px; }
+
+
+	#bottomBig {width: 100%; height: 40px; float: left;}	
+		#bottomBigSet {width: auto; padding: 0px 30px 0px 30px;}
+			#bottomBigIn {width: 100%; float: left; margin: 30px 0px 0px 0px; padding: 15px 0px 20px 0px; background-image: url(../images/hr.jpg); background-repeat: repeat-x; background-position: left top; font-size: 11px; color: #a9a9a9;}
+				#bottomBigIn A {color: #a9a9a9;}

@@ -1,0 +1,29 @@
+package cz.raptors;
+
+import cz.raptors.dianotes.WicketApplication;
+import cz.raptors.dianotes.pages.login.Login;
+import org.apache.wicket.util.tester.WicketTester;
+import org.junit.Before;
+import org.junit.Test;
+
+/**
+ * Simple test using the WicketTester
+ */
+public class TestHomePage {
+
+    private WicketTester tester;
+
+    @Before
+    public void setUp() {
+        tester = new WicketTester(new WicketApplication());
+    }
+
+    @Test
+    public void homepageRendersSuccessfully() {
+        //start and render the test page
+        tester.startPage(Login.class);
+
+        //assert rendered page class
+        tester.assertRenderedPage(Login.class);
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
+
+<body>
+<wicket:extend>
+
+    <div id="registerFormBar">
+        <h1><span class="hideText">DiaNotes</span></h1>
+
+        <h2>Registrace</h2>
+
+        <p>Pro vytvoření účtu vyplňte následující informace.</p>
+
+        <form wicket:id="registerForm" method="post">
+            <div class="formRow"><label wicket:id="loginEmailLabel" for="loginEmail"></label></div>
+            <div class="formInput"><input id="loginEmail" wicket:id="email" type="email" name="username"
+                                          value=""/></div>
+            <div class="formRow"><label wicket:id="formPasswordLabel" for="formPassword"></label></div>
+            <div class="formInput"><input id="formPassword" wicket:id="password" type="password"
+                                          name="password" value=""/></div>
+            <div class="formRow"><label wicket:id="formPasswordLabel2" for="formPassword2"></label></div>
+            <div class="formInput"><input id="formPassword2" wicket:id="password2" type="password"
+                                          name="password2" value=""/></div>
+            <div class="formRow"><label wicket:id="nameLabel" for="name"></label></div>
+            <div class="formInput"><input id="name" wicket:id="firstName" type="text"
+                                          name="name" value=""/></div>
+            <div class="formRow"><label wicket:id="surnameLabel" for="surname"></label></div>
+            <div class="formInput"><input id="surname" wicket:id="lastName" type="text"
+                                          name="surname" value=""/></div>
+            <div class="formSubmit">
+                <input wicket:id="registrationButton" type="submit"/>
+            </div>
+
+        </form>
+    </div>
+    <div id="feedbackPanel" class="feedbackPanel">
+        <span wicket:id="feedbackPanel"></span>
+    </div>
+
+</wicket:extend>
+</body>
+</html>
